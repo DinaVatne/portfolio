@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+@import url(https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet");
+
+
+/*font-family: 'Didact Gothic', sans-serif; - lang tekst
+font-family: 'Ultra', serif; - slett
+font-family: 'Ovo', serif;
+font-family: 'Fahkwang', sans-serif; -lang tekst*/
+
+
+body {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+footer {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+}
+
+
+/* ///////// Index ////////// */
+
+.wrapper-index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    height: 95vh;
+    text-align: center;
+}
+
+.header_index{
+    font-family: 'Cantata One', serif;
+    font-size: 6.5vw;
+    letter-spacing: 1.5vw;
+    padding-bottom: 3vh;
+}
+
+.link-meg {
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    margin-top: -4vh;
+    margin-bottom: 8vh;
+}
+
+.link-meg a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link-meg a:visited {
+    color: #000;
+}
+
+.link-meg a:hover {
+    color: #991737;
+}
+
+.portfolio {
+    background-color: #edc500;
+    height: 50vh;
+    margin-bottom: 2vw;
+    padding: 1vw;
+
+}
+
+.portfolio h3, li {
+    font-size: 3vh;
+    letter-spacing: 1.2vh;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 3.2vh;
+}
+
+.portfolio a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolio a:visited {
+    color: #000;
+}
+
+.portfolio a:hover {
+    color: #fa2ee2;
+    text-transform: uppercase;
+
+}
+
+
+/* ///////// Sides ////////// */
+
+
+.navbar a{
+    display:block;
+    text-align:center;
+}
+
+
+.side-nav{
+    height:330px;
+    width:0;
+    position:fixed;
+    z-index:1;
+    background-color:#000;
+    opacity:0.9;
+    overflow-x:hidden;
+    padding-top:50px;
+    transition:0.5s;
+    top: 0;
+    left: 0;
+}
+
+.side-nav a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    text-align: center;
+    transition:0.1s;
+    padding: 7px;
+}
+
+.nav2 p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.nav1{
+    margin-bottom: 20px;
+    font-size: 22px;
+
+}
+
+.nav2 a{
+  font-size: 15px;
+}
+
+
+
+.side-nav a:hover{
+    color:#edc500;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+.body-portfolio {
+    font-family: 'Pontano Sans', sans-serif;
+    margin: 0;
+}
+
+.header_sides {
+    font-family: 'Cantata One', serif;
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 1.2vw;
+    text-transform: uppercase;
+
+}
+
+.fixed{
+    position: fixed;
+    background-color: rgb(0,0,0,0.9);
+    color: #fff;
+    z-index: 1;
+
+}
+.space {
+    height: 10rem;
+}
+
+/*.menu {
+    list-style-type: none;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+
+
+.menu a:link {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.menu a:visited {
+    color: #fff;
+}
+
+.menu a:hover {
+    color: #fff;
+    letter-spacing: 0.6rem;
+}
+
+.menu a:active {
+    color: #fa2ee2;
+}
+
+.container-menu div {
+    text-align: center;
+    margin: 1.2rem;
+}
+
+li {
+    margin-top: 1.4rem;
+}
+*/
+
+
+h2 {
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 0.2rem;
+    margin-top: 15vw;
+    margin-bottom: 2vw;
+}
+
+.intro {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vw;
+
+}
+
+.intro p {
+    text-align: justify;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.15rem;
+}
+
+.box {
+    color: #000;
+    background-color: #edc500;
+    height: 50vw;
+    width: 80vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vw;
+    padding: 5vw;
+}
+
+.container-link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    text-transform:uppercase;
+
+
+}
+
+.box-link a:hover {
+    color: #991737;
+}
+
+.box-link  {
+
+    margin: 2vw;
+    background-color: rgb(0,0,0,0.8);
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 4vw;
+    box-shadow:  2px 2px 5px #000;
+    text-decoration: none;
+}
+
+.refleksjon {
+    text-align: justify;
+    letter-spacing: 0.08em;
+    word-spacing: 0.15em;
+    margin: 5vw;
+}
+
+
+/*//////////Tema 2//////////*/
+
+.video {
+    width: 100vw;
+}
+
+/*//////////Spil//////////*/
+
+.header-spil{
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 0.8rem;
+    padding: 6vw;
+    background-color: #ff879e;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+}
+
+.container-spil{
+    align-items: center;
+    margin: auto;
+}
+
+.container-spil img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #ff879e;
+    }
+
+.link-trello {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    background-color: #ff879e;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fahkwang', sans-serif;
+
+    }
+
+/*About*/
+
+.intro-meg {
+     margin: 6vw;
+}
+
+.intro-meg p {
+    text-align: justify;
+}
+
+.bilde-dina img{
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw;
+    opacity: 0.7;
+    z-index: 0;
+
+
+}
+
+.fixed-about{
+    position: fixed;
+    height: 10rem;
+    background-color: rgb(0,0,0,0.9);
+    margin: 0vw;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 5vw;
+    font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.4rem;
+    z-index: 1;
+
+}
+
+.space-about{
+    height: 10rem;
+}
+
+
+
+@media all and (min-width: 600px){
+
+    .wrapper-index {
+        width: 75vw;
+        height: 100vh;
+
+}
+
+    .header_index{
+        font-size: 4vw;
+    }
+
+    .link-meg {
+       font-size: 3vw;
+    }
+
+    .header_sides {
+        font-size: 2.5vw;
+}
+
+    .container-1 {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .container-1-1 {
+        display: flex;
+
+    }
+
+    .container-1-2 {
+        display: flex;
+
+    }
+
+
+    .box {
+        font-size: 2.2vw;
+        height: 33vw;
+        padding:1.2vw;
+        margin: 1vw;
+        }
+
+    .container-link {
+        margin-left: 12vw;
+        margin-right: 13vw;
+}
+
+    .container-dina{
+        display: flex;
+        align-items: center;
+        margin-top: 2vw;
+        margin-top: 6vw;
+        background-color: rgb(0,0,0,0.5);
+
+    }
+
+    .intro-meg {
+       margin: 0vw;
+        color: #fff;
+}
+
+
+
+.intro-meg p {
+    font-size: 2.1vw;
+    width: 54vw;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    padding-left: 2.6vw;
+
+}
+
+.bilde-dina img{
+   margin: 0vw;
+    width: 35vw;
+
+}
+
+    }
+
+
+@media all and (min-width: 800px){
+    body {
+        background-image: linear-gradient(to bottom right, #991737, #fff);
+        margin: auto;
+        padding: 0.4vh;
+    }
+
+
+    .background-index{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        height: 100%;
+        background-color: #fff;
+
+}
+
+    .wrapper-index {
+        width: 70vw;
+}
+
+    .header_index{
+    font-size: 4.2vw;
+    padding-top: 5vh;
+    }
+
+
+
+    .link-meg {
+       font-size: 2.6vw;
+    }
+
+    .header_sides{
+        padding-top: 2vh;
+        font-size: 2vw;
+    }
+
+    .side-nav{
+    transition:0.5s;
+    top: 4.4vw;
+    left: 10vw;
+}
+
+    .container-link {
+        margin-left: 10vw;
+        margin-right: 10vw;
+}
+
+
+@media all and (min-width: 900px){
+
+    .box {
+        font-size: 2vw;
+    }
+
+    .wrapper-sides {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+      .side-nav{
+    transition:0.5s;
+    top: 4.3vw;
+    left: 10.3vw;
+}
+
+@media all and (min-width: 1000px) {
+
+
+
+    .wrapper-index {
+        width: 55vw;
+}
+
+    .header_index {
+        padding-bottom: 0vh;
+        font-size: 3.2vw;
+    }
+
+    .link-meg {
+       font-size: 2vw;
+    }
+
+    .header_sides{
+        padding-top: 1vh;
+        font-size: 1.7vw;
+
+    }
+
+    .container-1{
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    h2 {
+        margin-top: 10vw;
+    }
+
+    .intro p{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        font-size: 1.4rem;
+    }
+
+    .refleksjon p{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media all and (min-width: 1200px){
+
+     .background-index{
+        width: 70vw;
+    }
+
+    .wrapper-index {
+        width: 45vw;
+}
+
+    .header_index {
+        font-size: 2.45vw;
+    }
+
+    .link-meg {
+        font-size: 1.6vw;
+        margin-top: 1vh;
+
+    }
+
+       .side-nav{
+    transition:0.5s;
+    left: 15vw;
+}
+
+    .container-1{
+        margin-left: ;
+
+    }
+
+    main{
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+    }
+
+    .container-1-1{
+       justify-content:center;
+    }
+
+    .container-1-2{
+       justify-content:center;
+    }
+
+    .box{
+        width: 23vw;
+        height: 19vw;
+        font-size: 1.4vw;
+        margin: 1vw;
+        padding: 1vw;
+
+    }
+
+    .container-link {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .box-link {
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        width: 12vw;
+
+    }
+
+
+
+
+.intro-meg p {
+    font-size: 1.7vw;
+    width: 50vw;
+    margin: 2vw;
+
+}
+
+.bilde-dina img{
+    width: 22vw;
+    margin: 2vw;
+
+}
+
+}
+
+@media all and (min-width: 1400px){
+
+    .background-index{
+        width: 60vw;
+    }
+
+       .side-nav{
+            left: 20vw;
+            top: 4.2vw;
+}
+
+
+    .header_sides {
+        font-size: 1.4vw;
+    }
+
+    .container-1 {
+        margin: 0vw;
+    }
+
+    .box{
+        width: 24vw;
+        height: 16vw;
+        font-size: 1.4vw;
+        margin: 1vw;
+        padding: 1vw;
+
+    }
+
+
+    .box-link {
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        width: 12vw;
+
+    }
+
+      .intro {
+          margin-top: 3vw;
+          margin-left: 2vw;
+          margin-right: 2vw;
+    }
+
+    .refleksjon {
+        margin-left: 5vw;
+        margin-top: 2vw;
+    }
+
+    h2 {
+        margin-top: 4vw;
+    }
+
+
+
+}
+
+    /*
+
+    .header_sides h1 {
+    font-size: 2.5rem;
+}
+
+    .container-1-1 {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .container-1-2 {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .container-2-1 {
+        display: flex;
+         flex-wrap: nowrap;
+         flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .container-2-2 {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .box {
+        height: 243px;
+        flex-grow: 1;
+        flex-basis: 200px;
+    }
+
+    .container-3 {
+        display: flex;
+    }
+
+    .box-link {
+        flex-grow: 1;
+        flex-basis: 200px;
+    }
+
+   .container-spil img {
+    width: 80%;
+    }
+
+    .header-spil{
+    width: 80%;
+    }
+
+    .link-trello {
+    width: 80%;
+    }
+
+    .container-dina {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .intro-meg {
+        flex: 1;
+        font-size: 1.1rem;
+    }
+
+    .bilde-dina {
+        flex: 1;
+    }
+
+}
+
+@media all and (min-width: 900px) {
+
+    .header_sides h1 {
+    font-size: 3rem;
+}
+
+    .box {
+        font-size: 1.4rem;
+    }
+
+      .container-spil img {
+    width: 70%;
+    }
+
+    .header-spil{
+    width: 70%;
+    }
+
+    .link-trello {
+    width: 70%;
+    }
+
+    .intro-meg {
+        flex: 2;
+        font-size: 1.3rem;
+    }
+
+    .bilde-dina {
+        flex: 1;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    .header_sides h1 {
+    font-size: 3.5rem;
+}
+
+    .box {
+        font-size: 1.05rem;
+        height: 260px;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-2 {
+        display: flex;
+    }
+
+    .container-spil img {
+    width: 50%;
+    }
+
+    .header-spil{
+    width: 50%;
+    }
+
+    .link-trello {
+    width: 50%;
+    }
+
+    .intro-meg {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media all and (min-width: 1500px) {
+    body {
+        margin-left: 170px;
+        margin-right: 170px;
+    }
+
+    .box {
+        font-size: 1.1rem;
+    }
+}
