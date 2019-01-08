@@ -22,6 +22,52 @@ footer {
     margin-bottom: 3vw;
 }
 
+.hidden {
+    transform: scale(0);
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.4s;
+    transform-origin: top left;
+    height:330px;
+    width: 150px;
+    position:fixed;
+    background-color:#000;
+    opacity:0.9;
+    overflow-x:hidden;
+    padding:30px;
+    font-family: 'Pontano Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    transition:0.1s;
+    color: #fff;
+    text-align: left;
+}
+
+
+#menu a:hover{
+    color:#edc500;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}*/
+
+
 
 /* ///////// Index ////////// */
 
@@ -96,7 +142,7 @@ footer {
 /* ///////// Sides ////////// */
 
 
-.navbar a{
+/*.navbar a{
     display:block;
     text-align:center;
 }
@@ -154,7 +200,7 @@ footer {
   right:22px;
   font-size:36px;
   margin-left:50px;
-}
+}*/
 
 .body-portfolio {
     font-family: 'Pontano Sans', sans-serif;

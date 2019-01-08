@@ -1,0 +1,29 @@
+/*function openSlideMenu(){
+    document.getElementById('side-menu').style.width = '250px';
+}
+
+function closeSlideMenu(){
+    document.getElementById('side-menu').style.width = '0';
+}*/
+
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("siden vises!");
+   document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+}
+
+
+function toggleMenu() {
+    console.log("Toggle menu");
+    document.querySelector("#menu").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector ("#menu").classList.contains("hidden");
+
+    if( erSkjult == true ) {
+        document.querySelector ("#menuknap").textContent = "☰";
+    } else {
+    document.querySelector("#menuknap").textContent = "X";
+
+    }
+}
