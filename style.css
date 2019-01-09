@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
-
-@import url(https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet");
-
-
-/*font-family: 'Didact Gothic', sans-serif; - lang tekst
-font-family: 'Ultra', serif; - slett
-font-family: 'Ovo', serif;
-font-family: 'Fahkwang', sans-serif; -lang tekst*/
-
-
 body {
     font-family: 'Pontano Sans', sans-serif;
 }
@@ -21,53 +10,6 @@ footer {
     margin-top: 7vw;
     margin-bottom: 3vw;
 }
-
-.hidden {
-    transform: scale(0);
-}
-
-#menuknap {
-    display: inline-block;
-}
-
-#menu {
-    list-style-type: none;
-    transition: transform 0.4s;
-    transform-origin: top left;
-    height:330px;
-    width: 150px;
-    position:fixed;
-    background-color:#000;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding:30px;
-    font-family: 'Pontano Sans', sans-serif;
-    padding-bottom: 30px;
-}
-
-#menu a{
-    text-decoration:none;
-    color:#fff;
-    display:block;
-    transition:0.1s;
-    color: #fff;
-    text-align: left;
-}
-
-
-#menu a:hover{
-    color:#edc500;
-}
-
-.side-nav .btn-close{
-  position:absolute;
-  top:0;
-  right:22px;
-  font-size:36px;
-  margin-left:50px;
-}*/
-
-
 
 /* ///////// Index ////////// */
 
@@ -141,129 +83,52 @@ footer {
 
 /* ///////// Sides ////////// */
 
-
-/*.navbar a{
-    display:block;
-    text-align:center;
-}
-
-
-.side-nav{
-    height:330px;
-    width:0;
-    position:fixed;
-    z-index:1;
-    background-color:#000;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding-top:50px;
-    transition:0.5s;
-    top: 0;
-    left: 0;
-}
-
-.side-nav a{
-    text-decoration:none;
-    color:#fff;
-    display:block;
-    text-align: center;
-    transition:0.1s;
-    padding: 7px;
-}
-
-.nav2 p {
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-
-}
-
-.nav1{
-    margin-bottom: 20px;
-    font-size: 22px;
-
-}
-
-.nav2 a{
-  font-size: 15px;
-}
-
-
-
-.side-nav a:hover{
-    color:#edc500;
-}
-
-.side-nav .btn-close{
-  position:absolute;
-  top:0;
-  right:22px;
-  font-size:36px;
-  margin-left:50px;
-}*/
-
-.body-portfolio {
-    font-family: 'Pontano Sans', sans-serif;
-    margin: 0;
-}
-
-.header_sides {
+.header_sides h1 {
     font-family: 'Cantata One', serif;
-    font-size: 3vw;
+    font-size: 6vw;
     text-align: center;
     letter-spacing: 1.2vw;
     text-transform: uppercase;
-
 }
 
-.fixed{
-    position: fixed;
-    background-color: rgb(0,0,0,0.9);
-    color: #fff;
+.hidden {
+    transform: scale(0);
+}
+
+#menuknap {
+    display: inline-block;
+    margin-left: 48vw;
+    width: 4vw;
+    text-decoration: none;
+    color: #000;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.4s;
+    transform-origin: top center;
+    height:330px;
+    position:absolute;
+    background-color:#000;
+    opacity:0.9;
+    overflow-x:hidden;
+    padding:30px;
+    font-family: 'Pontano Sans', sans-serif;
+    padding-bottom: 30px;
     z-index: 1;
 
 }
-.space {
-    height: 10rem;
-}
 
-/*.menu {
-    list-style-type: none;
-    font-family: 'Pontano Sans', sans-serif;
+#menu a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    transition:0.1s;
+    color: #fff;
+    text-align: left;
     font-size: 0.8rem;
-    letter-spacing: 0.5rem;
-    text-align: center;
 }
 
-
-.menu a:link {
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 2rem;
-}
-
-.menu a:visited {
-    color: #fff;
-}
-
-.menu a:hover {
-    color: #fff;
-    letter-spacing: 0.6rem;
-}
-
-.menu a:active {
-    color: #fa2ee2;
-}
-
-.container-menu div {
-    text-align: center;
-    margin: 1.2rem;
-}
-
-li {
-    margin-top: 1.4rem;
-}
-*/
 
 
 h2 {
@@ -290,7 +155,7 @@ h2 {
 .box {
     color: #000;
     background-color: #edc500;
-    height: 50vw;
+    height: 40vw;
     width: 80vw;
     margin-bottom: 2vw;
     padding: 1vw;
@@ -340,61 +205,15 @@ h2 {
     width: 100vw;
 }
 
-/*//////////Spil//////////*/
 
-.header-spil{
-    font-family: 'Fahkwang', sans-serif;
-    font-size: 0.8rem;
-    padding: 6vw;
-    background-color: #ff879e;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85vw;
-}
 
-.container-spil{
-    align-items: center;
-    margin: auto;
-}
-
-.container-spil img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85vw;
-    padding-left: 6vw;
-    padding-right: 6vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    background-color: #ff879e;
-    }
-
-.link-trello {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85vw;
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    background-color: #ff879e;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Fahkwang', sans-serif;
-
-    }
-
-/*About*/
+/*//////////About//////////*/
 
 .intro-meg {
      margin: 6vw;
-}
-
-.intro-meg p {
     text-align: justify;
 }
+
 
 .bilde-dina img{
     width: 90vw;
@@ -404,32 +223,13 @@ h2 {
     margin-bottom: 4vw;
     opacity: 0.7;
     z-index: 0;
-
-
-}
-
-.fixed-about{
-    position: fixed;
-    height: 10rem;
-    background-color: rgb(0,0,0,0.9);
-    margin: 0vw;
-    width: 100vw;
-    text-align: center;
-    margin-bottom: 5vw;
-    font-family: 'Cantata One', serif;
-    color: #fff;
-    font-size: 1rem;
-    word-spacing: 0.2rem;
-    letter-spacing: 0.4rem;
-    z-index: 1;
-
-}
-
-.space-about{
-    height: 10rem;
 }
 
 
+
+
+
+/*///////////////600px///////////////*/
 
 @media all and (min-width: 600px){
 
@@ -469,49 +269,31 @@ h2 {
 
     .box {
         font-size: 2.2vw;
-        height: 33vw;
+        height: 27vw;
         padding:1.2vw;
         margin: 1vw;
         }
 
     .container-link {
-        margin-left: 12vw;
-        margin-right: 13vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
 }
 
-    .container-dina{
-        display: flex;
-        align-items: center;
-        margin-top: 2vw;
-        margin-top: 6vw;
-        background-color: rgb(0,0,0,0.5);
+    .box-link{
+        padding: 1.5vw;
+    }
+
+
+
+
 
     }
 
-    .intro-meg {
-       margin: 0vw;
-        color: #fff;
-}
 
 
 
-.intro-meg p {
-    font-size: 2.1vw;
-    width: 54vw;
-    margin-left: 1vw;
-    margin-right: 3vw;
-    padding-left: 2.6vw;
 
-}
-
-.bilde-dina img{
-   margin: 0vw;
-    width: 35vw;
-
-}
-
-    }
-
+/*///////////////800px///////////////*/
 
 @media all and (min-width: 800px){
     body {
@@ -520,7 +302,6 @@ h2 {
         padding: 0.4vh;
     }
 
-
     .background-index{
         display: block;
         margin-left: auto;
@@ -528,12 +309,16 @@ h2 {
         width: 80vw;
         height: 100%;
         background-color: #fff;
-
-}
+    }
 
     .wrapper-index {
         width: 70vw;
-}
+    }
+
+
+    /* ///////// Index ////////// */
+
+
 
     .header_index{
     font-size: 4.2vw;
@@ -546,16 +331,32 @@ h2 {
        font-size: 2.6vw;
     }
 
-    .header_sides{
+    /* ///////// Sides ////////// */
+
+     .header_sides{
         padding-top: 2vh;
-        font-size: 2vw;
+
     }
 
-    .side-nav{
-    transition:0.5s;
-    top: 4.4vw;
-    left: 10vw;
-}
+    .header_sides h1 {
+        font-family: 'Cantata One', serif;
+        font-size: 4vw;
+        text-align: center;
+        letter-spacing: 1.2vw;
+        text-transform: uppercase;
+    }
+
+
+    #menuknap {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .box {
+        font-size: 2vw;
+    }
 
     .container-link {
         margin-left: 10vw;
@@ -563,22 +364,49 @@ h2 {
 }
 
 
+    /* ///////// About ////////// */
+
+
+    .container-dina{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 72vw;
+        height: 49vw;
+        margin-top: 2vw;
+        margin-left: 4vw;
+        margin-bottom: 5vw;
+        overflow: hidden;
+
+    }
+
+    .intro-meg  {
+        width: 40vw;
+        margin: 1.8vw;
+        font-size: 2.2vw;
+}
+
+    .bilde-dina img{
+        width: 50vw;
+        margin-right: -15vw;
+    }
+
+
+}
+
+/*///////////////900px///////////////*/
+
+
 @media all and (min-width: 900px){
 
-    .box {
-        font-size: 2vw;
-    }
+
 
     .wrapper-sides {
         margin-left: 10vw;
         margin-right: 10vw;
     }
 
-      .side-nav{
-    transition:0.5s;
-    top: 4.3vw;
-    left: 10.3vw;
-}
+
 
 @media all and (min-width: 1000px) {
 
@@ -627,6 +455,9 @@ h2 {
 
 }
 
+
+/*///////////////1200px///////////////*/
+
 @media all and (min-width: 1200px){
 
      .background-index{
@@ -672,8 +503,8 @@ h2 {
     }
 
     .box{
-        width: 23vw;
-        height: 19vw;
+        width: 30vw;
+        height: 20vw;
         font-size: 1.4vw;
         margin: 1vw;
         padding: 1vw;
@@ -687,29 +518,35 @@ h2 {
     }
 
     .box-link {
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        width: 12vw;
+        padding: 1vw;
+        width: 15vw;
+        height: 3vw;
 
     }
 
+    .container-dina{
+        width: 55vw;
+        height: 25vw;
+        margin-left: 1vw;
 
+    }
 
+    .intro-meg  {
+        width: 40vw;
+        font-size: 1.55vw;
+        margin-right: 3vw;
+}
 
-.intro-meg p {
-    font-size: 1.7vw;
-    width: 50vw;
-    margin: 2vw;
+    .bilde-dina img{
+        width: 29vw;
+        margin-right: -13vw;
+        margin-bottom: 0;
+    }
+
 
 }
 
-.bilde-dina img{
-    width: 22vw;
-    margin: 2vw;
-
-}
-
-}
+/*///////////////1400px///////////////*/
 
 @media all and (min-width: 1400px){
 
@@ -733,18 +570,10 @@ h2 {
 
     .box{
         width: 24vw;
-        height: 16vw;
-        font-size: 1.4vw;
+        height: 15vw;
+        font-size: 1.2vw;
         margin: 1vw;
         padding: 1vw;
-
-    }
-
-
-    .box-link {
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        width: 12vw;
 
     }
 
@@ -763,167 +592,23 @@ h2 {
         margin-top: 4vw;
     }
 
+      .container-dina{
+        width: 50vw;
+        margin-left: 0vw;
+          margin-bottom: 8vw;
 
+    }
 
+    .intro-meg  {
+        font-size: 1.4vw;
 }
 
-    /*
-
-    .header_sides h1 {
-    font-size: 2.5rem;
-}
-
-    .container-1-1 {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 400px;
-    }
-
-    .container-1-2 {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 400px;
-    }
-
-    .container-2-1 {
-        display: flex;
-         flex-wrap: nowrap;
-         flex-grow: 1;
-        flex-basis: 400px;
-    }
-
-    .container-2-2 {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 400px;
-    }
-
-    .box {
-        height: 243px;
-        flex-grow: 1;
-        flex-basis: 200px;
-    }
-
-    .container-3 {
-        display: flex;
-    }
-
-    .box-link {
-        flex-grow: 1;
-        flex-basis: 200px;
-    }
-
-   .container-spil img {
-    width: 80%;
-    }
-
-    .header-spil{
-    width: 80%;
-    }
-
-    .link-trello {
-    width: 80%;
-    }
-
-    .container-dina {
-        display: flex;
-        align-items: center;
-
-    }
-
-    .intro-meg {
-        flex: 1;
-        font-size: 1.1rem;
-    }
-
-    .bilde-dina {
-        flex: 1;
+    .bilde-dina img{
+        width: 29vw;
+        margin-right: -13vw;
+        margin-bottom: 0;
     }
 
 }
 
-@media all and (min-width: 900px) {
 
-    .header_sides h1 {
-    font-size: 3rem;
-}
-
-    .box {
-        font-size: 1.4rem;
-    }
-
-      .container-spil img {
-    width: 70%;
-    }
-
-    .header-spil{
-    width: 70%;
-    }
-
-    .link-trello {
-    width: 70%;
-    }
-
-    .intro-meg {
-        flex: 2;
-        font-size: 1.3rem;
-    }
-
-    .bilde-dina {
-        flex: 1;
-    }
-}
-
-@media all and (min-width: 1200px) {
-    body {
-        margin-left: 50px;
-        margin-right: 50px;
-
-    }
-
-    .header_sides h1 {
-    font-size: 3.5rem;
-}
-
-    .box {
-        font-size: 1.05rem;
-        height: 260px;
-    }
-
-    .container-1 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .container-2 {
-        display: flex;
-    }
-
-    .container-spil img {
-    width: 50%;
-    }
-
-    .header-spil{
-    width: 50%;
-    }
-
-    .link-trello {
-    width: 50%;
-    }
-
-    .intro-meg {
-        font-size: 1.6rem;
-    }
-
-}
-
-@media all and (min-width: 1500px) {
-    body {
-        margin-left: 170px;
-        margin-right: 170px;
-    }
-
-    .box {
-        font-size: 1.1rem;
-    }
-}
