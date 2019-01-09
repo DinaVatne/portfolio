@@ -3,37 +3,35 @@ body {
 }
 
 footer {
-    font-size: 0.7rem;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.2rem;
     text-align: center;
-    margin-top: 7vw;
-    margin-bottom: 3vw;
-}
-
-/* ///////// Index ////////// */
+    margin-top: 20vw;
+    font-size: 0.7rem;
+    }
 
 .wrapper-index {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95vw;
-    height: 95vh;
     text-align: center;
 }
 
+
+
+/* ///////// Index ////////// */
+
 .header_index{
     font-family: 'Cantata One', serif;
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     letter-spacing: 1.5vw;
-    padding-bottom: 3vh;
+    padding-bottom: 3vw;
 }
 
 .link-meg {
     font-size: 5vw;
     letter-spacing: 1vw;
-    margin-top: -4vh;
-    margin-bottom: 8vh;
+    margin-top: -4vw;
+    margin-bottom: 8vw;
 }
 
 .link-meg a:link {
@@ -51,18 +49,21 @@ footer {
 
 .portfolio {
     background-color: #edc500;
-    height: 50vh;
-    margin-bottom: 2vw;
-    padding: 1vw;
-
+    height: 80vw;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 14vw;
 }
 
-.portfolio h3, li {
-    font-size: 3vh;
-    letter-spacing: 1.2vh;
+.portfolio li {
+    font-size: 5.9vw;
+    text-align: center;
+    letter-spacing: 1.1vw;
     text-decoration: none;
     list-style-type: none;
-    padding-top: 3.2vh;
+    padding-top: 6vw;
+    padding-right: 6vw;
 }
 
 .portfolio a:link {
@@ -107,15 +108,15 @@ footer {
     list-style-type: none;
     transition: transform 0.4s;
     transform-origin: top center;
-    height:330px;
+    height:200px;
     position:absolute;
     background-color:#000;
     opacity:0.9;
     overflow-x:hidden;
     padding:30px;
     font-family: 'Pontano Sans', sans-serif;
-    padding-bottom: 30px;
     z-index: 1;
+    top: 0;
 
 }
 
@@ -127,6 +128,8 @@ footer {
     color: #fff;
     text-align: left;
     font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 15px;
 }
 
 
@@ -171,8 +174,6 @@ h2 {
     margin-right: auto;
     margin-top: 8px;
     text-transform:uppercase;
-
-
 }
 
 .box-link a:hover {
@@ -180,9 +181,8 @@ h2 {
 }
 
 .box-link  {
-
     margin: 2vw;
-    background-color: rgb(0,0,0,0.8);
+    background-color: #000;
     color: #fff;
     display: block;
     text-align: center;
@@ -202,7 +202,8 @@ h2 {
 /*//////////Tema 2//////////*/
 
 .video {
-    width: 100vw;
+    display: block;
+    margin-left: 30vw;
 }
 
 
@@ -229,13 +230,13 @@ h2 {
 
 
 
-/*///////////////600px///////////////*/
+/*///////////////550px///////////////*/
 
-@media all and (min-width: 600px){
+@media all and (min-width: 550px){
 
     .wrapper-index {
         width: 75vw;
-        height: 100vh;
+        height: 100vw;
 
 }
 
@@ -246,6 +247,17 @@ h2 {
     .link-meg {
        font-size: 3vw;
     }
+
+    .portfolio {
+    height: 70vw;
+    width: 70vw;
+}
+
+    .portfolio li {
+    font-size: 5vw;
+}
+
+
 
     .header_sides {
         font-size: 2.5vw;
@@ -290,6 +302,17 @@ h2 {
     }
 
 
+/*///////////////650px///////////////*/
+
+@media all and (min-width: 650px){
+     .header_index{
+        font-size: 3vw;
+    }
+
+    .link-meg {
+       margin-bottom: -10vw;
+    }
+}
 
 
 
@@ -300,6 +323,11 @@ h2 {
         background-image: linear-gradient(to bottom right, #991737, #fff);
         margin: auto;
         padding: 0.4vh;
+        background-repeat: no-repeat;
+    }
+
+    footer {
+    margin-top: 2vw;
     }
 
     .background-index{
@@ -318,18 +346,26 @@ h2 {
 
     /* ///////// Index ////////// */
 
-
-
     .header_index{
-    font-size: 4.2vw;
-    padding-top: 5vh;
+        padding-top: 1vh;
     }
-
-
 
     .link-meg {
-       font-size: 2.6vw;
+        font-size: 2.6vw;
+        margin-bottom: 6vw;
     }
+
+      .portfolio {
+        margin-top: 0;
+        height: 47vw;
+        width: 47vw;
+    }
+
+    .portfolio li {
+    font-size: 2.4vw;
+        padding-top: 5vw;
+}
+
 
     /* ///////// Sides ////////// */
 
@@ -416,14 +452,30 @@ h2 {
         width: 55vw;
 }
 
-    .header_index {
-        padding-bottom: 0vh;
-        font-size: 3.2vw;
+    .header_index{
+        font-size: 2.5vw;
+        padding-top: 1vh;
     }
 
     .link-meg {
-       font-size: 2vw;
+        font-size: 2.4vw;
+        margin-top: -4vw;
+        margin-bottom: 6vw;
     }
+
+      .portfolio {
+        margin-top: 0;
+        height: 35vw;
+        width: 41vw;
+          padding-left: 7vw;;
+          padding-top: 3vw
+    }
+
+    .portfolio li {
+        font-size: 2vw;
+        letter-spacing: 0.8vw;
+        padding-top: 3vw;
+}
 
     .header_sides{
         padding-top: 1vh;
@@ -468,25 +520,26 @@ h2 {
         width: 45vw;
 }
 
-    .header_index {
-        font-size: 2.45vw;
+    .header_index{
+        font-size: 2.1vw;
     }
 
     .link-meg {
-        font-size: 1.6vw;
-        margin-top: 1vh;
-
+        font-size: 2vw;
     }
 
-       .side-nav{
-    transition:0.5s;
-    left: 15vw;
+      .portfolio {
+        height: 32vw;
+        width: 37vw;
+        padding-left: 7vw;;
+        padding-top: 3vw;
+    }
+
+    .portfolio li {
+        font-size: 1.9vw;
 }
 
-    .container-1{
-        margin-left: ;
 
-    }
 
     main{
         margin-left: 5vw;
@@ -554,9 +607,22 @@ h2 {
         width: 60vw;
     }
 
-       .side-nav{
-            left: 20vw;
-            top: 4.2vw;
+    .link-meg {
+        font-size: 1.7vw;
+        margin-bottom: 4vw;
+    }
+
+      .portfolio {
+        height: 26vw;
+        width: 33vw;
+        padding-left: 7vw;;
+        padding-top: 3vw;
+    }
+
+    .portfolio li {
+        font-size: 1.5vw;
+        letter-spacing: 0.7vw;
+        padding-top: 2vw;
 }
 
 
@@ -595,7 +661,7 @@ h2 {
       .container-dina{
         width: 50vw;
         margin-left: 0vw;
-          margin-bottom: 8vw;
+        margin-bottom: 8vw;
 
     }
 
@@ -608,7 +674,4 @@ h2 {
         margin-right: -13vw;
         margin-bottom: 0;
     }
-
 }
-
-
