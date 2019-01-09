@@ -6,7 +6,10 @@ footer {
     text-align: center;
     margin-top: 20vw;
     font-size: 0.7rem;
-    }
+}
+
+
+/* ///////// Index ////////// */
 
 .wrapper-index {
     display: block;
@@ -16,11 +19,7 @@ footer {
     text-align: center;
 }
 
-
-
-/* ///////// Index ////////// */
-
-.header_index{
+.header_index {
     font-family: 'Cantata One', serif;
     font-size: 5.5vw;
     letter-spacing: 1.5vw;
@@ -107,24 +106,24 @@ footer {
 #menu {
     list-style-type: none;
     transition: transform 0.4s;
-    transform-origin: top center;
-    height:200px;
-    position:absolute;
-    background-color:#000;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding:30px;
+    transform-origin: top left;
+    height: 200px;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding: 30px;
     font-family: 'Pontano Sans', sans-serif;
     z-index: 1;
     top: 0;
 
 }
 
-#menu a{
-    text-decoration:none;
-    color:#fff;
-    display:block;
-    transition:0.1s;
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 0.1s;
     color: #fff;
     text-align: left;
     font-size: 0.8rem;
@@ -173,21 +172,21 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .box-link a:hover {
     color: #991737;
 }
 
-.box-link  {
+.box-link {
     margin: 2vw;
-    background-color: #000;
+    background-color: #444547;
     color: #fff;
     display: block;
     text-align: center;
     padding: 4vw;
-    box-shadow:  2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #000;
     text-decoration: none;
 }
 
@@ -199,24 +198,16 @@ h2 {
 }
 
 
-/*//////////Tema 2//////////*/
-
-.video {
-    display: block;
-    margin-left: 30vw;
-}
-
-
 
 /*//////////About//////////*/
 
 .intro-meg {
-     margin: 6vw;
+    margin: 6vw;
     text-align: justify;
 }
 
 
-.bilde-dina img{
+.bilde-dina img {
     width: 90vw;
     display: block;
     margin-left: auto;
@@ -232,36 +223,40 @@ h2 {
 
 /*///////////////550px///////////////*/
 
-@media all and (min-width: 550px){
+@media all and (min-width: 550px) {
+
+
+     /* ///////// Index ////////// */
 
     .wrapper-index {
         width: 75vw;
         height: 100vw;
 
-}
+    }
 
-    .header_index{
+    .header_index {
         font-size: 4vw;
     }
 
     .link-meg {
-       font-size: 3vw;
+        font-size: 3vw;
     }
 
     .portfolio {
-    height: 70vw;
-    width: 70vw;
-}
+        height: 70vw;
+        width: 70vw;
+    }
 
     .portfolio li {
-    font-size: 5vw;
-}
+        font-size: 5vw;
+    }
 
 
+    /* ///////// Sides ////////// */
 
     .header_sides {
         font-size: 2.5vw;
-}
+    }
 
     .container-1 {
         margin-left: 3vw;
@@ -282,35 +277,34 @@ h2 {
     .box {
         font-size: 2.2vw;
         height: 27vw;
-        padding:1.2vw;
+        padding: 1.2vw;
         margin: 1vw;
-        }
+    }
 
     .container-link {
         margin-left: 15vw;
         margin-right: 15vw;
-}
+    }
 
-    .box-link{
+    .box-link {
         padding: 1.5vw;
     }
 
+}
 
 
-
-
-    }
 
 
 /*///////////////650px///////////////*/
 
-@media all and (min-width: 650px){
-     .header_index{
+@media all and (min-width: 650px) {
+
+    .header_index {
         font-size: 3vw;
     }
 
     .link-meg {
-       margin-bottom: -10vw;
+        margin-bottom: -10vw;
     }
 }
 
@@ -318,7 +312,8 @@ h2 {
 
 /*///////////////800px///////////////*/
 
-@media all and (min-width: 800px){
+@media all and (min-width: 800px) {
+
     body {
         background-image: linear-gradient(to bottom right, #991737, #fff);
         margin: auto;
@@ -327,10 +322,10 @@ h2 {
     }
 
     footer {
-    margin-top: 2vw;
+        margin-top: 2vw;
     }
 
-    .background-index{
+    .background-index {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -339,14 +334,15 @@ h2 {
         background-color: #fff;
     }
 
+
+    /* ///////// Index ////////// */
+
     .wrapper-index {
         width: 70vw;
     }
 
 
-    /* ///////// Index ////////// */
-
-    .header_index{
+    .header_index {
         padding-top: 1vh;
     }
 
@@ -355,21 +351,21 @@ h2 {
         margin-bottom: 6vw;
     }
 
-      .portfolio {
+    .portfolio {
         margin-top: 0;
         height: 47vw;
         width: 47vw;
     }
 
     .portfolio li {
-    font-size: 2.4vw;
+        font-size: 2.4vw;
         padding-top: 5vw;
-}
+    }
 
 
     /* ///////// Sides ////////// */
 
-     .header_sides{
+    .header_sides {
         padding-top: 2vh;
 
     }
@@ -397,13 +393,13 @@ h2 {
     .container-link {
         margin-left: 10vw;
         margin-right: 10vw;
-}
+    }
 
 
     /* ///////// About ////////// */
 
 
-    .container-dina{
+    .container-dina {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -416,13 +412,13 @@ h2 {
 
     }
 
-    .intro-meg  {
+    .intro-meg {
         width: 40vw;
         margin: 1.8vw;
         font-size: 2.2vw;
-}
+    }
 
-    .bilde-dina img{
+    .bilde-dina img {
         width: 50vw;
         margin-right: -15vw;
     }
@@ -433,7 +429,7 @@ h2 {
 /*///////////////900px///////////////*/
 
 
-@media all and (min-width: 900px){
+@media all and (min-width: 900px) {
 
 
 
@@ -442,17 +438,18 @@ h2 {
         margin-right: 10vw;
     }
 
+}
 
 
 @media all and (min-width: 1000px) {
 
-
+     /* ///////// Index ////////// */
 
     .wrapper-index {
         width: 55vw;
-}
+    }
 
-    .header_index{
+    .header_index {
         font-size: 2.5vw;
         padding-top: 1vh;
     }
@@ -463,27 +460,31 @@ h2 {
         margin-bottom: 6vw;
     }
 
-      .portfolio {
+    .portfolio {
         margin-top: 0;
         height: 35vw;
         width: 41vw;
-          padding-left: 7vw;;
-          padding-top: 3vw
+        padding-left: 7vw;
+        ;
+        padding-top: 3vw
     }
 
     .portfolio li {
         font-size: 2vw;
         letter-spacing: 0.8vw;
         padding-top: 3vw;
-}
+    }
 
-    .header_sides{
+
+    /* ///////// Sides ////////// */
+
+    .header_sides {
         padding-top: 1vh;
         font-size: 1.7vw;
 
     }
 
-    .container-1{
+    .container-1 {
         margin-left: 4vw;
         margin-right: 4vw;
     }
@@ -492,13 +493,13 @@ h2 {
         margin-top: 10vw;
     }
 
-    .intro p{
+    .intro p {
         margin-left: 4vw;
         margin-right: 4vw;
         font-size: 1.4rem;
     }
 
-    .refleksjon p{
+    .refleksjon p {
         margin-left: 4vw;
         margin-right: 4vw;
         font-size: 1.4rem;
@@ -510,17 +511,20 @@ h2 {
 
 /*///////////////1200px///////////////*/
 
-@media all and (min-width: 1200px){
+@media all and (min-width: 1200px) {
 
-     .background-index{
+    .background-index {
         width: 70vw;
     }
 
+
+     /* ///////// Index ////////// */
+
     .wrapper-index {
         width: 45vw;
-}
+    }
 
-    .header_index{
+    .header_index {
         font-size: 2.1vw;
     }
 
@@ -528,34 +532,30 @@ h2 {
         font-size: 2vw;
     }
 
-      .portfolio {
+    .portfolio {
         height: 32vw;
         width: 37vw;
-        padding-left: 7vw;;
+        padding-left: 7vw;
+        ;
         padding-top: 3vw;
     }
 
     .portfolio li {
         font-size: 1.9vw;
-}
-
-
-
-    main{
-        margin-left: 5vw;
-        margin-right: 5vw;
-
     }
 
-    .container-1-1{
-       justify-content:center;
+
+    /* ///////// Sides ////////// */
+
+    .container-1-1 {
+        justify-content: center;
     }
 
-    .container-1-2{
-       justify-content:center;
+    .container-1-2 {
+        justify-content: center;
     }
 
-    .box{
+    .box {
         width: 30vw;
         height: 20vw;
         font-size: 1.4vw;
@@ -577,20 +577,22 @@ h2 {
 
     }
 
-    .container-dina{
+    /*//////////About//////////*/
+
+    .container-dina {
         width: 55vw;
         height: 25vw;
-        margin-left: 1vw;
+        margin-left: 5vw;
 
     }
 
-    .intro-meg  {
+    .intro-meg {
         width: 40vw;
         font-size: 1.55vw;
         margin-right: 3vw;
-}
+    }
 
-    .bilde-dina img{
+    .bilde-dina img {
         width: 29vw;
         margin-right: -13vw;
         margin-bottom: 0;
@@ -601,21 +603,25 @@ h2 {
 
 /*///////////////1400px///////////////*/
 
-@media all and (min-width: 1400px){
+@media all and (min-width: 1400px) {
 
-    .background-index{
+    .background-index {
         width: 60vw;
     }
+
+
+     /* ///////// Index ////////// */
 
     .link-meg {
         font-size: 1.7vw;
         margin-bottom: 4vw;
     }
 
-      .portfolio {
+    .portfolio {
         height: 26vw;
         width: 33vw;
-        padding-left: 7vw;;
+        padding-left: 7vw;
+        ;
         padding-top: 3vw;
     }
 
@@ -623,8 +629,10 @@ h2 {
         font-size: 1.5vw;
         letter-spacing: 0.7vw;
         padding-top: 2vw;
-}
+    }
 
+
+    /* ///////// Sides ////////// */
 
     .header_sides {
         font-size: 1.4vw;
@@ -634,7 +642,7 @@ h2 {
         margin: 0vw;
     }
 
-    .box{
+    .box {
         width: 24vw;
         height: 15vw;
         font-size: 1.2vw;
@@ -643,10 +651,10 @@ h2 {
 
     }
 
-      .intro {
-          margin-top: 3vw;
-          margin-left: 2vw;
-          margin-right: 2vw;
+    .intro {
+        margin-top: 3vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 
     .refleksjon {
@@ -658,18 +666,20 @@ h2 {
         margin-top: 4vw;
     }
 
-      .container-dina{
+
+    /*//////////About//////////*/
+
+    .container-dina {
         width: 50vw;
-        margin-left: 0vw;
         margin-bottom: 8vw;
 
     }
 
-    .intro-meg  {
+    .intro-meg {
         font-size: 1.4vw;
-}
+    }
 
-    .bilde-dina img{
+    .bilde-dina img {
         width: 29vw;
         margin-right: -13vw;
         margin-bottom: 0;

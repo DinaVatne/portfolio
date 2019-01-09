@@ -2,7 +2,7 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("siden vises!");
-   document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
 
 
@@ -10,12 +10,12 @@ function toggleMenu() {
     console.log("Toggle menu");
     document.querySelector("#menu").classList.toggle("hidden");
 
-    let erSkjult = document.querySelector ("#menu").classList.contains("hidden");
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
-    if( erSkjult == true ) {
-        document.querySelector ("#menuknap").textContent = "☰";
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
     } else {
-    document.querySelector("#menuknap").textContent = "X";
+        document.querySelector("#menuknap").textContent = "X";
 
     }
 }
